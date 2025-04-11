@@ -1,0 +1,47 @@
+html /* здесь указывается, к какому элементу применять свойства, в данном случае ко всему html*/ {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Henny Penny"; /* this should be the rest of the output you got from Google Fonts */
+  background-color: #232323;
+}
+li,
+p {
+  color: lightgray;
+  width: 500px;
+  border: 1px solid black;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: lightblue;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+  letter-spacing: 1px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: lightcyan;
+  text-shadow: 3px 3px 1px black;
+}
+a {
+  border: 1px solid black;
+  font-size: 14px;
+}
+body {
+  width: 600px; /* */
+  margin: 0 auto;
+  background-color: #606060;
+  padding: 10px 20px 20px 20px;
+  /*border: 5px solid #606060;*/
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: 2px solid black;
+}
